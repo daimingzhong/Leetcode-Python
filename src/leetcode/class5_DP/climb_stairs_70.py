@@ -78,5 +78,4 @@ class ClimbStairs:
 
 if __name__ == "__main__":
     sol = ClimbStairs()
-    print(sol.climb_stairs([30]))
-    # print(ClimbStairs.climb_stairs(500))
+    print(sol.climb_stairs(500))

@@ -1,3 +1,5 @@
+from leetcode.class0.tree_node import TreeNode
+
 """
 
 Given the below binary tree and sum = 22,
@@ -19,7 +21,6 @@ Return:
 
 """
 
-from leetcode.class0.tree_node import TreeNode
 
 
 class PathSumII_113(object):

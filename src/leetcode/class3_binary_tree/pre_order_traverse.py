@@ -1,4 +1,6 @@
-""" Created by daimingzhong on 1/30/18. LeetCode:  
+from leetcode.class0.tree_node import construct_bst
+
+"""  
 
 Problem:
 
@@ -14,14 +16,8 @@ Problem:
 
 In-order traversal is [5, 3, 1, 4, 8, 11]
 
-Example:
-
-
-Solution:
-
 
 """
-from leetcode.class0.tree_node import construct_bst
 
 
 class PreOrderTraverse:

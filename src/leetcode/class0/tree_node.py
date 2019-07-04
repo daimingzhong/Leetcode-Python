@@ -20,7 +20,7 @@ class TreeNode:
         self.right = None
 
 
-def bst():
+def construct_bst():
     t1 = TreeNode(5)
     t2 = TreeNode(3)
     t3 = TreeNode(8)

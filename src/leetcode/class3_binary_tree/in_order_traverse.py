@@ -1,4 +1,7 @@
-""" Created by daimingzhong on 1/29/18. LeetCode:
+from typing import List
+from leetcode.class0.tree_node import TreeNode, construct_bst
+
+""" 
 
 Problem: 
 
@@ -27,10 +30,6 @@ Solution:
 
 
 """
-
-from typing import List
-from leetcode.class0.tree_node import TreeNode, construct_bst
-
 
 class InOrderTraverse:
     def in_order_recur(self, root, res : List[TreeNode]):
